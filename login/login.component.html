@@ -1,0 +1,3 @@
+<input type="email" #email/>
+<input type="password" #password/>
+<button [disabled]="!enabled" (click)="login(email.value, password.value)">login</button>
